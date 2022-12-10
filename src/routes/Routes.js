@@ -27,7 +27,7 @@ const router = createBrowserRouter([
         element: <Projects></Projects>,
       },
       {
-        path: '/cta',
+        path: '/contact',
         element: <CallToAction></CallToAction>,
       },
     ],

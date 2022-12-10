@@ -48,11 +48,11 @@ const Navbar = () => {
             ? 'bg-[#64feda] bg-opacity-10 leading-4 py-0  lg:py-2 px-1 lg:px-4 rounded-sm lg:rounded-lg duration-300'
             : ''
         }
-        to="/cta"
+        to="/contact"
         onClick={() => setOpen(true)}
       >
         <span className="text-[#64feda] mr-[2px] lg:mr-1">04.</span>
-        CTA
+        Contact
       </NavLink>
       <a
         href="https://drive.google.com/file/d/19CnAXq6ew1y_0Ci7OnD9HEkvfIT8sWAL/view?usp=sharing"
