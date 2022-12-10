@@ -8,11 +8,11 @@ const Footer = () => {
       data-aos-duration="500"
       data-aos-delay="100"
       data-aos-anchor-placement="top-bottom"
-      className=" mt-12 overflow-hidden"
+      className=" mt-12 overflow-x-hidden mx-auto w-10/12 lg:w-10/12"
     >
-      <div className="mx-auto w-10/12 md:w-8/12 lg:w-10/12">
+      <div className="">
         <div className="grid row-gap-10 mb-8 lg:grid-cols-6">
-          <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
+          <div className="grid grid-cols-3  gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
             <div className="text-[#8891b0]">
               <p className="font-medium tracking-wide text-[#ccd7f7]">
                 Category
@@ -122,45 +122,6 @@ const Footer = () => {
                     className="transition-colors duration-300 hover:text-deep-purple-accent-200"
                   >
                     Projects
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <p className="font-medium tracking-wide text-[#ccd7f7]">
-                Business
-              </p>
-              <ul className="mt-2 space-y-2">
-                <li>
-                  <a
-                    href="/"
-                    className="transition-colors duration-300 hover:text-deep-purple-accent-200"
-                  >
-                    Infopreneur
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    className="transition-colors duration-300 hover:text-deep-purple-accent-200"
-                  >
-                    Personal
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    className="transition-colors duration-300 hover:text-deep-purple-accent-200"
-                  >
-                    Wiki
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    className="transition-colors duration-300 hover:text-deep-purple-accent-200"
-                  >
-                    Forum
                   </a>
                 </li>
               </ul>

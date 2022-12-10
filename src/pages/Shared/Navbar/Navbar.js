@@ -15,7 +15,7 @@ const Navbar = () => {
         to="/"
         onClick={() => setOpen(true)}
       >
-        <span className="text-[#64feda] mr-[2px]  lg:mr-1">01.</span>
+        <span className="text-[#64feda] mr-[2px] lg:mr-1">01.</span>
         Home
       </NavLink>
       <NavLink
@@ -66,7 +66,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <header className="w-full font-mono font-normal">
+    <header className="w-full font-mono font-normal overflow-x-hidden">
       <nav className="w-11/12 mx-auto h-28 p  flex justify-between items-center">
         <div>
           <Link to="/" className="text-2xl font-semibold">
@@ -87,7 +87,7 @@ const Navbar = () => {
         <div
           className={`${
             open ? 'scale-0 static' : ' scale-[3.5] lg:scale-0 '
-          } duration-300 fixed z-10  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  w-96 h-96 bg-[#0a1930] flex flex-col justify-center items-center overflow-hidden  text-[8px] lg:hidden rounded-full`}
+          } duration-300 fixed z-10  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96  bg-[#0a1930] flex flex-col justify-center items-center overflow-hidden  text-[8px] lg:hidden rounded-full`}
         >
           {menuItems}
         </div>

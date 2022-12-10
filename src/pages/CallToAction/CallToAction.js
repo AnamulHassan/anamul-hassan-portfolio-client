@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import toast from 'react-hot-toast';
-import { FaTelegramPlane } from 'react-icons/fa';
 
 const CallToAction = () => {
   const form = useRef();

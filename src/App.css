@@ -5,11 +5,13 @@
 /* Customize Scroll Bar*/
 ::-webkit-scrollbar {
   width: 5px;
+  overflow-x: hidden !important;
 }
 
 ::-webkit-scrollbar-thumb {
   background: #ccd7f7;
   border-radius: 10px;
+  overflow-x: hidden !important;
 }
 
 /*

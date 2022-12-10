@@ -3,7 +3,7 @@ import Hero from './Hero';
 
 const Home = () => {
   return (
-    <section className="w-full mx-auto">
+    <section className="w-screen mx-auto overflow-x-hidden">
       <Hero></Hero>
     </section>
   );
