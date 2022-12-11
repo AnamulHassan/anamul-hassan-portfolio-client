@@ -3,6 +3,7 @@ import Main from '../layout/Main';
 import About from '../pages/About/About';
 import CallToAction from '../pages/CallToAction/CallToAction';
 import Home from '../pages/Home/Home';
+import ProjectDetails from '../pages/ProjectDetails/ProjectDetails';
 import Projects from '../pages/Projects/Projects';
 
 const router = createBrowserRouter([
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <CallToAction></CallToAction>,
+      },
+      {
+        path: '/projectDetails/:id',
+        element: <ProjectDetails></ProjectDetails>,
       },
     ],
   },

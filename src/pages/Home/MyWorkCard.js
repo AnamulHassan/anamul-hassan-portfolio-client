@@ -9,7 +9,6 @@ import LoaderPrimary from '../../components/LoaderPrimary/LoaderPrimary';
 import Fade from 'react-reveal/Fade';
 
 const MyWorkCard = ({ project, index, isLoading }) => {
-  console.log(project);
   const {
     projectImg01,
     projectTitle,
@@ -86,7 +85,7 @@ const MyWorkCard = ({ project, index, isLoading }) => {
               >
                 <FaExternalLinkSquareAlt className="text-[#ccd7f7] text-xl lg:text-3xl" />
               </a>
-              <Link to={`project-details/${projectId}`} title="details">
+              <Link to={`/projectDetails/${projectId}`} title="details">
                 <FaExpand className="text-[#ccd7f7] text-xl lg:text-3xl" />
               </Link>
             </div>

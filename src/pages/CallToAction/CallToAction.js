@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import toast from 'react-hot-toast';
 import Fade from 'react-reveal/Fade';
+import Rotate from 'react-reveal/Rotate';
 
 const CallToAction = () => {
   const form = useRef();
@@ -27,12 +28,14 @@ const CallToAction = () => {
   };
   return (
     <section className="w-10/12 md:w-8/12 lg:w-8/12 mx-auto my-12">
-      <h2
-        className="text-center text-4xl font-semibold my-6"
-        style={{ fontFamily: "'Sofia', cursive" }}
-      >
-        How can I help you?
-      </h2>
+      <Rotate bottom left>
+        <h2
+          className="text-center text-4xl font-semibold my-6"
+          style={{ fontFamily: "'Sofia', cursive" }}
+        >
+          How can I help you?
+        </h2>
+      </Rotate>
       <form
         ref={form}
         onSubmit={sendEmail}

@@ -2,6 +2,7 @@ import { useQuery } from '@tanstack/react-query';
 import React from 'react';
 import { HiCode } from 'react-icons/hi';
 import MyWorkCard from './MyWorkCard';
+import Fade from 'react-reveal/Fade';
 /*
 main-bg- #0a1930
 
@@ -27,12 +28,15 @@ const MyWorks = () => {
     <section>
       {projectsData.length > 0 && (
         <section className="w-10/12 md:w-8/12 lg:w-10/12 mx-auto my-12 lg:my-24">
-          <div className="flex flex-col lg:flex-row items-center justify-center">
-            <h2 className=" w-full  text-2xl lg:text-5xl text-[#ccd7f7] font-bold tracking-tight inline-flex justify-start  items-center">
-              <HiCode className="text-[#64feda] mr-1" /> Things that I've create
-            </h2>
-            <span className="w-full inline-block h-[2px] lg:h-[3px] bg-[#8891b0] bg-opacity-40 mt-1 lg:mt-3"></span>
-          </div>
+          <Fade top>
+            <div className="flex flex-col lg:flex-row items-center justify-center">
+              <h2 className=" w-full  text-2xl lg:text-5xl text-[#ccd7f7] font-bold tracking-tight inline-flex justify-start  items-center">
+                <HiCode className="text-[#64feda] mr-1" /> Things that I've
+                create
+              </h2>
+              <span className="w-full inline-block h-[2px] lg:h-[3px] bg-[#8891b0] bg-opacity-40 mt-1 lg:mt-3"></span>
+            </div>
+          </Fade>
           <div className="mt-12 space-y-20">
             {projectsData.map((project, index) => (
               <MyWorkCard
