@@ -5,7 +5,7 @@ import Navbar from '../pages/Shared/Navbar/Navbar';
 
 const Main = () => {
   return (
-    <section className="w-screen flex flex-col justify-between items-center">
+    <section className="w-screen h-screen flex flex-col justify-between items-center">
       <Navbar></Navbar>
       <Outlet></Outlet>
       <Footer></Footer>

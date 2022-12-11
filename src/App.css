@@ -5,13 +5,11 @@
 /* Customize Scroll Bar*/
 ::-webkit-scrollbar {
   width: 5px;
-  overflow-x: hidden !important;
 }
 
 ::-webkit-scrollbar-thumb {
   background: #ccd7f7;
   border-radius: 10px;
-  overflow-x: hidden !important;
 }
 
 /*
@@ -22,6 +20,8 @@ text-main-#ccd7f7
 text-gray-#8891b0
 
 text-high-light-#64feda
+
+bg-secondary - #112240
 
 
 */
